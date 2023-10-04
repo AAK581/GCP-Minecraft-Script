@@ -37,3 +37,8 @@ sed -i -e 's/\r$//' scriptname.sh
 gcloud compute ssh mc-server --zone=us-central1-c --command="sudo screen -r"
 ```
 This way you can type commands into the server itself
+
+In order to get the server's IP, type this in the shell:
+```
+echo $IP
+```
